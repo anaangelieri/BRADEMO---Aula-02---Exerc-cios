@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-// This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Align(
           alignment: Alignment(
-              -0.5, -0.6), // Define a posição no canto superior esquerdo
+              -0.5, -0.6), 
           child: Container(
             width: 100,
             height: 100,
